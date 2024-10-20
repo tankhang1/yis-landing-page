@@ -226,7 +226,7 @@ blockquote:after { position: absolute; top: 0; left: 0; font-family: 'bootstrap-
     Featured Box
 ------------------------*/
 .featured-item { padding: 40px 30px; position: relative; border-radius: 50px; overflow: hidden; z-index: 9; background: var(--themeht-white-color); }
-.featured-item .featured-icon { display: inline-block; position: relative; margin-bottom: 30px }
+.featured-item .featured-icon { display: inline-block; position: relative; margin-bottom: 0px }
 .featured-desc p { margin-bottom: 0; }
 .featured-title h5 { margin-bottom: 15px; }
 .featured-item .featured-icon i { background: linear-gradient(115deg, var(--themeht-primary-color2), var(--themeht-primary-color), var(--themeht-primary-color3)); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block; font-size: 50px; line-height: 50px; }
