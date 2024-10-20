@@ -35,6 +35,7 @@
   --themeht-text-color: #16072f;
   --themeht-white-color: #ffffff;
   --themeht-body-color: #75727b;
+  --themeht-primary-color4:#4A6473;
   --themeht-bg-dark-color: #0f171b;
   --themeht-bg-light-color: #f8fafc;
   --themeht-border-light-color: #e1e1e1;
@@ -171,6 +172,9 @@ section {
 }
 .text-grey {
   color: var(--themeht-body-color);
+}
+.text-color-primary{
+  color:var(--themeht-primary-color4) !important;
 }
 
 /* ------------------------
