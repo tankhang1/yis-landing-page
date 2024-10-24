@@ -10,7 +10,7 @@
     <meta name="description" content="HTML5 Template" />
     <meta name="author" content="www.themeht.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <script src="./js/language.js"></script>
     <!-- Title -->
     <title>Yis Landing Page</title>
 
@@ -118,7 +118,12 @@
                       <!-- Home -->
 
                       <li class="nav-item dropdown">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a
+                          class="nav-link active"
+                          href="index.html"
+                          id="toptab_home"
+                          >Home</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="index.html">Home 01</a>
@@ -138,7 +143,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Pages</a>
+                        <a class="nav-link" href="#" id="toptab_pages">Pages</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="about-us.html">About Us</a>
@@ -180,7 +185,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#" id="toptab_shop">Shop</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="product-grid.html">Product Grid</a>
@@ -210,41 +215,56 @@
                           class="nav-link dropdown-toggle"
                           href="#"
                           data-bs-toggle="dropdown"
+                          id="toptab_services"
                           >Services</a
                         >
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="qr-code-management.html"
+                            <a
+                              href="qr-code-management.html"
+                              id="subtab_qrcode_management"
                               >QrCode Management</a
                             >
                           </li>
                           <li>
-                            <a href="campaign-management.html"
+                            <a
+                              href="campaign-management.html"
+                              id="subtab_campain_management"
                               >Campaign Management</a
                             >
                           </li>
                           <li>
-                            <a href="event-management.html">Event Management</a>
+                            <a
+                              href="event-management.html"
+                              id="subtab_event_management"
+                              >Event Management</a
+                            >
                           </li>
                           <li>
-                            <a href="consultant-management.html"
+                            <a
+                              href="consultant-management.html"
+                              id="subtab_consultant_management"
                               >Consultant Management</a
                             >
                           </li>
                           <li>
-                            <a href="warehouse-management.html"
+                            <a
+                              href="warehouse-management.html"
+                              id="subtab_warehouse_management"
                               >Warehouse Management</a
                             >
                           </li>
                           <li>
-                            <a href="bizcard-management.html"
+                            <a
+                              href="bizcard-management.html"
+                              id="subtab_bizcard_management"
                               >BizCard Management</a
                             >
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#" id="toptab_news">News</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="blog-left-sidebar.html"
@@ -262,7 +282,9 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#" id="toptab_contact"
+                          >Contact</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="contact.html">Contact 1</a>
@@ -277,6 +299,7 @@
 
                   <div class="dropdown d-none d-lg-block">
                     <img
+                      id="current-language-icon"
                       src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                       style="height: 25px; margin-right: 15px"
                       class="rounded-1 dropdown-toggle pointer-event"
@@ -288,28 +311,32 @@
                       <li
                         role="button"
                         class="text-black fw-bold mb-2 text-color-primary"
+                        id="language-english"
                       >
                         <img
                           src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
                         English
                       </li>
                       <li
                         role="button"
                         class="text-black fw-bold text-color-primary"
+                        id="language-vietnamese"
                       >
                         <img
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
-                        Tiếng việt
+                        Tiếng Việt
                       </li>
                     </ul>
                   </div>
-                  <a class="themeht-btn dark-btn" href="#">Contact Us</a>
+                  <a class="themeht-btn dark-btn" href="#" id="contact_us"
+                    >Contact Us</a
+                  >
                 </nav>
               </div>
             </div>
@@ -343,17 +370,23 @@
             <div class="col-lg-6 col-md-12 mt-8 mt-lg-0">
               <h2
                 class="mb-4 text-color-primary wow animate__shakeX animate__slow"
+                id="home_page_title"
               >
                 Technology Leading to Lasting Success
               </h2>
-              <p class="lead mb-5 wow animate__zoomIn animate__slow">
+              <p
+                class="lead mb-5 wow animate__zoomIn animate__slow"
+                id="home_page_desc"
+              >
                 Yis Martech is honored to introduce a young, dynamic, and
                 enthusiastic team of staff members.
               </p>
 
               <div class="wow animate__fadeInUp animate__slow">
-                <a class="themeht-btn" href="#">Get Started</a>
-                <a class="themeht-btn dark-btn ms-3" href="#">Contact Us</a>
+                <a class="themeht-btn" href="#" id="get_start">Get Started</a>
+                <a class="themeht-btn dark-btn ms-3" id="contact_us"
+                  >Contact Us</a
+                >
               </div>
             </div>
           </div>
@@ -373,8 +406,8 @@
             <div class="row justify-content-center text-center">
               <div class="col-lg-8 col-md-12">
                 <div class="theme-title">
-                  <h6>Services</h6>
-                  <h2 class="text-color-primary">
+                  <h6 id="toptab_services">Services</h6>
+                  <h2 class="text-color-primary" id="services_desc">
                     Comprehensive Solutions for Manufacturing and Distribution
                     Businesses
                   </h2>
@@ -394,9 +427,9 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>QR Code Management System</h4>
+                      <h4 id="service_1">QR Code Management System</h4>
                     </div>
-                    <p class="text-start">
+                    <p class="text-start" id="service_1_desc">
                       We provide best Software Service for any type of business
                       as stragegy, management.
                     </p>
@@ -418,9 +451,9 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>Campaign Management with QR</h4>
+                      <h4 id="service_2">Campaign Management with QR</h4>
                     </div>
-                    <p class="text-start">
+                    <p class="text-start" id="service_2_desc">
                       We provide best Software Service for any type of business
                       as stragegy, management.
                     </p>
@@ -442,9 +475,9 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>Event Management Solutions</h4>
+                      <h4 id="service_3">Event Management Solutions</h4>
                     </div>
-                    <p class="text-start">
+                    <p class="text-start" id="service_3_desc">
                       We provide event management and communication solutions
                       through a marketing platform based on data analysis,
                       helping to optimize the event experience and increase
@@ -468,9 +501,9 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>iConsultant Services</h4>
+                      <h4 id="service_4">iConsultant Services</h4>
                     </div>
-                    <p class="text-start">
+                    <p class="text-start" id="service_4_desc">
                       We empower businesses to leverage cutting-edge
                       technologies to accelerate growth, streamline operations,
                       and enhance customer experiences.
@@ -493,9 +526,13 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>IWarehouse Services</h4>
+                      <h4 id="service_5">IWarehouse Services</h4>
                     </div>
-                    <p class="text-start" style="height: 150px">
+                    <p
+                      class="text-start"
+                      style="height: 150px"
+                      id="service_5_desc"
+                    >
                       Yis. warehouse management solution focuses on automating
                       warehouse operations that include distribution, inventory
                       tracking, and keeping costs & errors to a minimum.
@@ -518,9 +555,9 @@
                   </div>
                   <div class="service-desc">
                     <div class="service-title">
-                      <h4>IBizCard Services</h4>
+                      <h4 id="service_6">IBizCard Services</h4>
                     </div>
-                    <p class="text-start">
+                    <p class="text-start" id="service_6_desc">
                       Create custom IBizCard with your customised branding.
                       Build a dynamic template for each team member specific to
                       your company's needs. Have them direct prospects to key
@@ -551,20 +588,22 @@
               </div>
               <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10">
                 <div class="theme-title mb-4">
-                  <h6>About Us</h6>
-                  <h2 class="text-color-primary">
+                  <h6 id="about_us">About Us</h6>
+                  <h2 class="text-color-primary" id="about_us_title">
                     Yis MarTech - Pioneering Marketing Technology, Leading
                     Success
                   </h2>
                 </div>
-                <p class="mb-5">
+                <p class="mb-5" id="about_us_desc">
                   Yis MarTech, Your Service, offers a wide range of marketing
                   technologies to help achieve marketing objectives or goals.
                   Yis MarTech has become a vital component in digital marketing
                   campaigns, but it can also be utilized to optimize marketing
                   efforts across any channel.
                 </p>
-                <a class="themeht-btn" href="#">See About Us</a>
+                <a class="themeht-btn" href="#" id="see_about_us"
+                  >See About Us</a
+                >
               </div>
             </div>
           </div>
@@ -579,8 +618,10 @@
             <div class="row">
               <div class="col-lg-8 col-md-12">
                 <div class="theme-title z-index-1">
-                  <h6>Outstanding</h6>
-                  <h2 class="text-color-primary">Typical solutions</h2>
+                  <h6 id="outstanding">Outstanding</h6>
+                  <h2 class="text-color-primary" id="outstanding_title">
+                    Typical solutions
+                  </h2>
                 </div>
               </div>
             </div>
@@ -591,10 +632,10 @@
                     <img class="img-fluid" src="images/feature/01.png" alt="" />
                   </div>
                   <div class="featured-title">
-                    <h5>QR Code Loyalty & Sell-out</h5>
+                    <h5 id="outstanding_title_1">QR Code Loyalty & Sell-out</h5>
                   </div>
                   <div class="featured-desc">
-                    <p style="height: 120px">
+                    <p style="height: 120px" id="outstanding_title_1_desc">
                       Implement promotions, win prizes, and accumulate points
                       right on the product, applicable to both consumers and
                       distribution channels (sell-out).
@@ -608,10 +649,10 @@
                     <img class="img-fluid" src="images/feature/02.png" alt="" />
                   </div>
                   <div class="featured-title">
-                    <h5>QR Code Anti-counterfeit</h5>
+                    <h5 id="outstanding_title_2">QR Code Anti-counterfeit</h5>
                   </div>
                   <div class="featured-desc">
-                    <p>
+                    <p id="outstanding_title_2_desc">
                       See your authentic mission, and values come to life with a
                       unique brand image.
                     </p>
@@ -624,10 +665,10 @@
                     <img class="img-fluid" src="images/feature/03.png" alt="" />
                   </div>
                   <div class="featured-title">
-                    <h5>QR Code Traceability</h5>
+                    <h5 id="outstanding_title_3">QR Code Traceability</h5>
                   </div>
                   <div class="featured-desc">
-                    <p>
+                    <p id="outstanding_title_3_desc">
                       Solution for businesses and cooperatives to trace product
                       origins according to national standards.
                     </p>
@@ -640,9 +681,11 @@
                     <img class="img-fluid" src="images/feature/04.png" alt="" />
                   </div>
                   <div class="featured-title">
-                    <h5>Transparent information using Barcode</h5>
+                    <h5 id="outstanding_title_4">
+                      Transparent information using Barcode
+                    </h5>
                   </div>
-                  <div class="featured-desc">
+                  <div class="featured-desc" id="outstanding_title_4_desc">
                     <p>
                       See your authentic mission, and values come to life with a
                       unique brand image.
@@ -673,18 +716,17 @@
               <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 pe-lg-10">
                 <div class="theme-title mb-4 gap-3">
                   <h6>Core Values</h6>
-                  <h2 class="text-color-primary">Vision</h2>
-                  <p>
+                  <h2 class="text-color-primary" id="vision">Vision</h2>
+                  <p id="vision_desc">
                     We aim to become a trusted partner for our customers,
                     delivering optimal solutions with the guiding principles of
-                    <strong>"DEDICATION - CREATIVITY - EFFICIENCY."</strong>
-                    With a commitment that extends beyond words to actions, we
-                    focus on innovation and creating genuine value, building
-                    sustainable and long-term success together with our
-                    customers.
+                    "DEDICATION - CREATIVITY - EFFICIENCY." With a commitment
+                    that extends beyond words to actions, we focus on innovation
+                    and creating genuine value, building sustainable and
+                    long-term success together with our customers.
                   </p>
-                  <h2 class="text-color-primary">Mission</h2>
-                  <p>
+                  <h2 class="text-color-primary" id="mission">Mission</h2>
+                  <p id="mission_desc">
                     Yis MarTech is an innovative marketing company that delivers
                     complete and cost-effective solutions to clients. We bring a
                     world of strategic, technical, design and implementation
@@ -1058,8 +1100,8 @@
               <div>
                 <section class="overflow-hidden">
                   <div class="theme-title">
-                    <h6>Work Process</h6>
-                    <h2 class="text-color-primary">
+                    <h6 id="work_process">Work Process</h6>
+                    <h2 class="text-color-primary" id="work_process_desc">
                       Efficiency in Motion, Progress in Every Step
                     </h2>
                   </div>
@@ -1069,7 +1111,7 @@
                         <div class="main-timeline position-relative">
                           <div class="timeline_item">
                             <div class="date-content timeline-order-1b">
-                              <div class="date">Step 1</div>
+                              <div class="date" id="step1">Step 1</div>
                             </div>
                             <div class="timeline-icon timeline-order-2b">
                               <img
@@ -1081,30 +1123,48 @@
                             <div
                               class="timeline-content timeline-order-3b col-md"
                             >
-                              <h4>Receive Request</h4>
+                              <h4 id="step1_title">Receive Request</h4>
                               <ul class="list-unstyled list-icon">
-                                <li>
-                                  <i class="bi bi-check-lg"></i>Limit fake goods
-                                  on the market
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step1_desc_1">
+                                    Limit fake goods on the market
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i>Increase brand
-                                  recognition
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step1_desc_2">
+                                    Increase brand recognition
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i>Limit fake goods
-                                  on the market
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step1_desc_3">
+                                    Limit fake goods on the market
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i>Activate
-                                  warranty
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step1_desc_4">Activate warranty</p>
                                 </li>
                               </ul>
                             </div>
                           </div>
                           <div class="timeline_item">
                             <div class="date-content timeline-order-1">
-                              <div class="date">Step 2</div>
+                              <div class="date" id="step2">Step 2</div>
                             </div>
                             <div class="timeline-icon timeline-order-2">
                               <img
@@ -1116,22 +1176,34 @@
                             <div
                               class="timeline-content timeline-order-3 col-md"
                             >
-                              <h4>Finalize Requirements</h4>
+                              <h4 id="step2_title">Finalize Requirements</h4>
                               <ul class="list-unstyled list-icon">
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Provide time
-                                  and cost estimates for implementation
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step2_desc_1">
+                                    Provide time and cost estimates for
+                                    implementation
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Sign contracts
-                                  and ensure information security agreements
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step2_desc_2">
+                                    Sign contracts and ensure information
+                                    security agreements
+                                  </p>
                                 </li>
                               </ul>
                             </div>
                           </div>
                           <div class="timeline_item">
                             <div class="date-content timeline-order-1b">
-                              <div class="date">Step 3</div>
+                              <div class="date" id="step3">Step 3</div>
                             </div>
                             <div class="timeline-icon timeline-order-2b">
                               <img
@@ -1143,26 +1215,37 @@
                             <div
                               class="timeline-content timeline-order-3b col-md"
                             >
-                              <h4>Build Solution</h4>
+                              <h4 id="step3_title">Build Solution</h4>
                               <ul class="list-unstyled list-icon">
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Design the
-                                  system
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step3_desc_1">Design the system</p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Develop system
-                                  features
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step3_desc_2">
+                                    Develop system features
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Test system
-                                  features
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step3_desc_3">Test system features</p>
                                 </li>
                               </ul>
                             </div>
                           </div>
                           <div class="timeline_item">
                             <div class="date-content timeline-order-1">
-                              <div class="date">Step 4</div>
+                              <div class="date" id="step4">Step 4</div>
                             </div>
                             <div class="timeline-icon timeline-order-2">
                               <img
@@ -1174,22 +1257,32 @@
                             <div
                               class="timeline-content timeline-order-3 col-md"
                             >
-                              <h4>Deploy</h4>
+                              <h4 id="step4_title">Deploy</h4>
                               <ul class="list-unstyled list-icon">
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Deploy the
-                                  system into real operation
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step4_desc_1">
+                                    Deploy the system into real operation
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Train on the
-                                  operational procedures
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step4_desc_2">
+                                    Train on the operational procedures
+                                  </p>
                                 </li>
                               </ul>
                             </div>
                           </div>
                           <div class="timeline_item">
                             <div class="date-content timeline-order-1b">
-                              <div class="date">Step 5</div>
+                              <div class="date" id="step5">Step 5</div>
                             </div>
                             <div class="timeline-icon timeline-order-2b">
                               <img
@@ -1201,19 +1294,36 @@
                             <div
                               class="timeline-content timeline-order-3b col-md"
                             >
-                              <h4>Acceptance Testing</h4>
+                              <h4 id="step5_title">Acceptance Testing</h4>
                               <ul class="list-unstyled list-icon">
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Ensure the
-                                  system operates correctly and stably
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step5_desc_1">
+                                    Ensure the system operates correctly and
+                                    stably
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Ensure the
-                                  personnel operate the system correctly
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step5_desc_2">
+                                    Ensure the personnel operate the system
+                                    correctly
+                                  </p>
                                 </li>
-                                <li>
-                                  <i class="bi bi-check-lg"></i> Sign the
-                                  acceptance test report
+                                <li
+                                  class="d-flex align-items-start"
+                                  style="height: 25px"
+                                >
+                                  <i class="bi bi-check-lg"></i>
+                                  <p id="step5_desc_3">
+                                    Sign the acceptance test report
+                                  </p>
                                 </li>
                               </ul>
                             </div>
@@ -1246,7 +1356,7 @@
                         <div class="counter-desc">
                           <span class="count-number" data-count="482">482</span>
                           <span>+</span>
-                          <h5>Project Done</h5>
+                          <h5 id="project_done">Project Done</h5>
                         </div>
                       </div>
                     </div>
@@ -1255,7 +1365,7 @@
                         <div class="counter-desc">
                           <span class="count-number" data-count="98">98</span>
                           <span>%</span>
-                          <h5>Success Rate</h5>
+                          <h5 id="success_rate">Success Rate</h5>
                         </div>
                       </div>
                     </div>
@@ -1264,7 +1374,7 @@
                         <div class="counter-desc">
                           <span class="count-number" data-count="234">234</span>
                           <span>+</span>
-                          <h5>Winning Awards</h5>
+                          <h5 id="winning_awards">Winning Awards</h5>
                         </div>
                       </div>
                     </div>
@@ -1273,7 +1383,7 @@
                         <div class="counter-desc">
                           <span class="count-number" data-count="72">72</span>
                           <span>K</span>
-                          <h5>Happy Client</h5>
+                          <h5 id="happy_client">Happy Client</h5>
                         </div>
                       </div>
                     </div>
@@ -1399,7 +1509,7 @@
           <div class="primary-footer">
             <div class="row">
               <div class="col-lg-5 col-md-12">
-                <h5>Get In Touch</h5>
+                <h5 id="get_in_touch">Get In Touch</h5>
                 <ul class="media-icon list-unstyled mb-8">
                   <li>
                     <p class="mb-0">
@@ -1408,13 +1518,13 @@
                     </p>
                   </li>
                   <li>
-                    <a href="mailto:Support@yis.VN">Support@yis.VN</a>
+                    <a href="mailto:support@yis.vn">support@yis.vn</a>
                   </li>
                   <li>
                     <a href="tel:+84704596663">+84704596663</a>
                   </li>
                 </ul>
-                <h5>Follow Us</h5>
+                <h5 id="follow_us">Follow Us</h5>
                 <ul class="list-inline ps-0 ms-0 footer-social">
                   <li class="list-inline-item">
                     <a href="https://www.facebook.com/YisMarTech">
@@ -1444,17 +1554,17 @@
                 </ul>
               </div>
               <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
-                <h5>Information</h5>
+                <h5 id="information">Information</h5>
                 <div class="row">
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us.html" id="about_us">About Us</a>
                       </li>
                       <li>
-                        <a href="services.html">Service</a>
+                        <a href="services.html" id="toptab_services">Service</a>
                       </li>
-                      <li>
+                      <li id="team">
                         <a href="team.html">Team</a>
                       </li>
                     </ul>
@@ -1462,33 +1572,35 @@
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="blog-right-sidebar.html">Blog</a>
+                        <a href="blog-right-sidebar.html" id="blog">Blog</a>
                       </li>
                       <li>
-                        <a href="error-404.html">Error 404</a>
+                        <a href="error-404.html" id="error_404">Error 404</a>
                       </li>
                       <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html" id="contact_us">Contact Us</a>
                       </li>
                     </ul>
                   </div>
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="faq.html">Faq</a>
+                        <a href="faq.html" id="faq">Faq</a>
                       </li>
                       <li>
-                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="privacy-policy.html" id="privacy_policy"
+                          >Privacy Policy</a
+                        >
                       </li>
                       <li>
-                        <a href="terms-and-conditions.html">Terms</a>
+                        <a href="terms-and-conditions.html" id="terms">Terms</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="row mt-8">
                   <div class="col-md-10">
-                    <h5>Subscribe Our Newsletter</h5>
+                    <h5 id="subscribe">Subscribe Our Newsletter</h5>
                     <div class="subscribe-form">
                       <form id="mc-form" class="mc-form">
                         <input
@@ -1507,7 +1619,7 @@
                           value="Subscribe Now"
                         />
                       </form>
-                      <small class="d-block mt-3"
+                      <small class="d-block mt-3" id="subscribe_us"
                         >Get started for 1 Month free trial No Purchace
                         required.</small
                       >
@@ -1523,9 +1635,9 @@
             <div class="copyright">
               <div class="row text-center">
                 <div class="col">
-                  Copyright 2023 Soften Theme by
+                  Copyright 2023 Yis Theme by
                   <u>
-                    <a href="#">ThemeHt</a>
+                    <a href="#">Yis</a>
                   </u>
                   | All Rights Reserved
                 </div>
