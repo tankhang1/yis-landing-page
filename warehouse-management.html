@@ -118,7 +118,12 @@
                       <!-- Home -->
 
                       <li class="nav-item dropdown">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a
+                          class="nav-link active"
+                          href="index.html"
+                          id="toptab_home"
+                          >Home</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="index.html">Home 01</a>
@@ -138,7 +143,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Pages</a>
+                        <a class="nav-link" href="#" id="toptab_pages">Pages</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="about-us.html">About Us</a>
@@ -180,7 +185,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#" id="toptab_shop">Shop</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="product-grid.html">Product Grid</a>
@@ -210,41 +215,56 @@
                           class="nav-link dropdown-toggle"
                           href="#"
                           data-bs-toggle="dropdown"
+                          id="toptab_services"
                           >Services</a
                         >
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="qr-code-management.html"
+                            <a
+                              href="qr-code-management.html"
+                              id="subtab_qrcode_management"
                               >QrCode Management</a
                             >
                           </li>
                           <li>
-                            <a href="campaign-management.html"
+                            <a
+                              href="campaign-management.html"
+                              id="subtab_campain_management"
                               >Campaign Management</a
                             >
                           </li>
                           <li>
-                            <a href="event-management.html">Event Management</a>
+                            <a
+                              href="event-management.html"
+                              id="subtab_event_management"
+                              >Event Management</a
+                            >
                           </li>
                           <li>
-                            <a href="consultant-management.html"
+                            <a
+                              href="consultant-management.html"
+                              id="subtab_consultant_management"
                               >Consultant Management</a
                             >
                           </li>
                           <li>
-                            <a href="warehouse-management.html"
+                            <a
+                              href="warehouse-management.html"
+                              id="subtab_warehouse_management"
                               >Warehouse Management</a
                             >
                           </li>
                           <li>
-                            <a href="bizcard-management.html"
+                            <a
+                              href="bizcard-management.html"
+                              id="subtab_bizcard_management"
                               >BizCard Management</a
                             >
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#" id="toptab_news">News</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="blog-left-sidebar.html"
@@ -262,7 +282,9 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#" id="toptab_contact"
+                          >Contact</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="contact.html">Contact 1</a>
@@ -277,6 +299,7 @@
 
                   <div class="dropdown d-none d-lg-block">
                     <img
+                      id="current-language-icon"
                       src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                       style="height: 25px; margin-right: 15px"
                       class="rounded-1 dropdown-toggle pointer-event"
@@ -288,28 +311,32 @@
                       <li
                         role="button"
                         class="text-black fw-bold mb-2 text-color-primary"
+                        id="language-english"
                       >
                         <img
                           src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
                         English
                       </li>
                       <li
                         role="button"
                         class="text-black fw-bold text-color-primary"
+                        id="language-vietnamese"
                       >
                         <img
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
-                        Tiếng việt
+                        Tiếng Việt
                       </li>
                     </ul>
                   </div>
-                  <a class="themeht-btn dark-btn" href="#">Contact Us</a>
+                  <a class="themeht-btn dark-btn" href="#" id="contact_us"
+                    >Contact Us</a
+                  >
                 </nav>
               </div>
             </div>
@@ -324,21 +351,28 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8 col-md-12">
-              <h1 class="fw-bold">
-                War<span>ehouse</span>
-                Management
+              <h1
+                class="fw-bold text-color-primary"
+                id="subtab_event_management"
+              >
+                Warehouse Management
               </h1>
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="index.html">
-                      <i class="bi bi-house-door me-1"></i>Home</a
+                    <a href="index.html" class="d-flex align-items-center">
+                      <i class="bi bi-house-door me-1"></i>
+                      <p id="toptab_home">Home</p></a
                     >
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="#">Services</a>
+                    <a href="#" id="toptab_services">Services</a>
                   </li>
-                  <li class="breadcrumb-item active" aria-current="page">
+                  <li
+                    class="breadcrumb-item active"
+                    aria-current="page"
+                    id="subtab_event_management"
+                  >
                     Warehouse Management
                   </li>
                 </ol>
@@ -381,28 +415,40 @@
                     alt="..."
                   />
                 </div>
-                <h2 class="text-color-primary">Ware House Managment</h2>
+                <h2 class="text-color-primary" id="subtab_warehouse_management">
+                  Warehouse Managment
+                </h2>
                 <ul class="list-unstyled list-icon">
-                  <li>
-                    <i class="bi bi-check-lg"></i>Yis. warehouse management
-                    solution focuses on automating warehouse operations that
-                    include distribution, inventory tracking, and keeping costs
-                    & errors to a minimum.
+                  <li class="d-flex align-items-start" style="height: 50px">
+                    <i class="bi bi-check-lg"></i>
+                    <p id="warehouse_1">
+                      Yis warehouse management solution focuses on automating
+                      warehouse operations that include distribution, inventory
+                      tracking, and keeping costs & errors to a minimum.
+                    </p>
                   </li>
-                  <li>
-                    <i class="bi bi-check-lg"></i>OCR tech to collect invoice &
-                    Delivery note on Delivery process
+                  <li class="d-flex align-items-start" style="height: 25px">
+                    <i class="bi bi-check-lg"></i>
+                    <p id="warehouse_2">
+                      OCR tech to collect invoice & Delivery note on Delivery
+                      process
+                    </p>
                   </li>
-                  <li>
-                    <i class="bi bi-check-lg"></i>Optimizes with business &
-                    requisitions by customers
+                  <li class="d-flex align-items-start" style="height: 25px">
+                    <i class="bi bi-check-lg"></i>
+                    <p id="warehouse_3">
+                      Optimizes with business & requisitions by customers
+                    </p>
                   </li>
-                  <li>
-                    <i class="bi bi-check-lg"></i>Our Solution is seamlessly
-                    integrated with ERP which optimizes the entire warehouse
-                    operations, giving the exact data visibility to make better
-                    decisions.Leverage our end-to-end cloud-based solution to
-                    keep your operations running smoothly and quickly. 
+                  <li class="d-flex align-items-start" style="height: 100px">
+                    <i class="bi bi-check-lg"></i>
+                    <p id="warehouse_4">
+                      Our Solution is seamlessly integrated with ERP which
+                      optimizes the entire warehouse operations, giving the
+                      exact data visibility to make better decisions.Leverage
+                      our end-to-end cloud-based solution to keep your
+                      operations running smoothly and quickly. 
+                    </p>
                   </li>
                 </ul>
                 <div class="service-image mb-5">
@@ -414,30 +460,42 @@
                 </div>
                 <div class="row mt-4 mb-5">
                   <div class="col-md-6">
-                    <h4 class="text-color-primary">Benefits</h4>
+                    <h4 class="text-color-primary" id="benefits">Benefits</h4>
                     <ul class="list-unstyled list-icon">
-                      <li>
-                        <i class="bi bi-check-lg"></i>Optimize business
-                        operations and meet customer requirements.
+                      <li class="d-flex align-items-start" style="height: 50px">
+                        <i class="bi bi-check-lg"></i>
+                        <p id="benefits_1">
+                          Optimize business operations and meet customer
+                          requirements.
+                        </p>
                       </li>
-                      <li>
-                        <i class="bi bi-check-lg"></i>Closely manage material
-                        consumption to ensure efficient and cost-effective
-                        usage.
+                      <li class="d-flex align-items-start" style="height: 50px">
+                        <i class="bi bi-check-lg"></i>
+                        <p id="benefits_2">
+                          Closely manage material consumption to ensure
+                          efficient and cost-effective usage.
+                        </p>
                       </li>
-                      <li>
-                        <i class="bi bi-check-lg"></i>Easily create production
-                        plans based on business plans, orders, and inventory.
+                      <li class="d-flex align-items-start" style="height: 50px">
+                        <i class="bi bi-check-lg"></i>
+                        <p id="benefits_3">
+                          Easily create production plans based on business
+                          plans, orders, and inventory.
+                        </p>
                       </li>
-                      <li>
-                        <i class="bi bi-check-lg"></i>Real-time reporting,
-                        accurately reflecting reality, making decision-making
-                        easier.
+                      <li class="d-flex align-items-start" style="height: 50px">
+                        <i class="bi bi-check-lg"></i>
+                        <p id="benefits_4">
+                          Real-time reporting, accurately reflecting reality,
+                          making decision-making easier.
+                        </p>
                       </li>
-                      <li>
-                        <i class="bi bi-check-lg"></i>Track available inventory
-                        to plan production appropriately, avoiding shortages or
-                        excess.
+                      <li class="d-flex align-items-start" style="height: 50px">
+                        <i class="bi bi-check-lg"></i>
+                        <p id="benefits_5">
+                          Track available inventory to plan production
+                          appropriately, avoiding shortages or excess.
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -462,6 +520,7 @@
                         data-bs-target="#collapse1"
                         aria-expanded="true"
                         aria-controls="collapse1"
+                        id="why_you_should_choose_yis"
                       >
                         Why You Should Choose Yis Solutions?
                       </button>
@@ -473,26 +532,50 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="accordion-body">
-                        At Yis, we understand the importance of efficiency,
-                        security, and innovation in your business operations.
-                        Our solutions, powered by cutting-edge technology, offer
-                        a range of benefits that make us the right partner for
-                        your business. Here's why you should choose Yis:
+                        <p id="why_you_should_choose_yis_title">
+                          At Yis, we understand the importance of efficiency,
+                          security, and innovation in your business operations.
+                          Our solutions, powered by cutting-edge technology,
+                          offer a range of benefits that make us the right
+                          partner for your business. Here's why you should
+                          choose Yis:
+                        </p>
                         <ul class="list-unstyled list-icon">
-                          <li>
-                            <i class="bi bi-check-lg"></i>Comprehensive QR Code
-                            Solutions
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="why_you_should_choose_yis_desc_1">
+                              Comprehensive QrCode Solutions
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Tailored for Every
-                            Industry
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="why_you_should_choose_yis_desc_2">
+                              Tailored for Every Industry
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Boost Customer Loyalty
-                            and Engagement
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="why_you_should_choose_yis_desc_3">
+                              Boost Customer Loyalty and Engagement
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Seamless Integration
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="why_you_should_choose_yis_desc_4">
+                              Seamless Integration
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -507,6 +590,7 @@
                         data-bs-target="#collapse2"
                         aria-expanded="false"
                         aria-controls="collapse2"
+                        id="how_can_you_connect_with_yis"
                       >
                         How Can You Connect With Yis?
                       </button>
@@ -518,21 +602,47 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="accordion-body">
-                        Connecting with Yis is simple, and we’re always ready to
-                        assist you in implementing our solutions. Here's how you
-                        can reach us:
+                        <p id="how_can_you_connect_with_yis_title">
+                          Connecting with Yis is simple, and we’re always ready
+                          to assist you in implementing our solutions. Here's
+                          how you can reach us:
+                        </p>
                         <ul class="list-unstyled list-icon">
-                          <li>
-                            <i class="bi bi-check-lg"></i>Visit Our Website
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="how_can_you_connect_with_yis_desc_1">
+                              Visit Our Website
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Schedule a
-                            Consultation
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="how_can_you_connect_with_yis_desc_2">
+                              Schedule a Consultation
+                            </p>
                           </li>
-                          <li><i class="bi bi-check-lg"></i>Email Us</li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Follow Us on Social
-                            Media
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="how_can_you_connect_with_yis_desc_3">
+                              Email Us
+                            </p>
+                          </li>
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="how_can_you_connect_with_yis_desc_4">
+                              Follow Us on Social Media
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -547,6 +657,7 @@
                         data-bs-target="#collapse3"
                         aria-expanded="false"
                         aria-controls="collapse3"
+                        id="prioritizing_the_customer"
                       >
                         Prioritizing the Customer’s Needs
                       </button>
@@ -558,29 +669,58 @@
                       data-bs-parent="#accordion"
                     >
                       <div class="accordion-body">
-                        At Yis, our customers are at the heart of everything we
-                        do. We understand that every business is unique, and we
-                        strive to provide customized solutions that address your
-                        specific challenges. Here's how we prioritize customer
-                        needs:
+                        <p id="prioritizing_the_customer_title">
+                          At Yis, our customers are at the heart of everything
+                          we do. We understand that every business is unique,
+                          and we strive to provide customized solutions that
+                          address your specific challenges. Here's how we
+                          prioritize customer needs:
+                        </p>
                         <ul class="list-unstyled list-icon">
-                          <li>
-                            <i class="bi bi-check-lg"></i>Tailored Solutions
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="prioritizing_the_customer_desc_1">
+                              Tailored Solutions
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Exceptional Customer
-                            Support
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="prioritizing_the_customer_desc_2">
+                              Exceptional Customer Support
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Ongoing Innovation
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="prioritizing_the_customer_desc_3">
+                              Ongoing Innovation
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Efficient and Secure
-                            Technology
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="prioritizing_the_customer_desc_4">
+                              Efficient and Secure Technology
+                            </p>
                           </li>
-                          <li>
-                            <i class="bi bi-check-lg"></i>Focus on Long-Term
-                            Relationships
+                          <li
+                            class="d-flex align-items-start"
+                            style="height: 25px"
+                          >
+                            <i class="bi bi-check-lg"></i>
+                            <p id="prioritizing_the_customer_desc_5">
+                              Focus on Long-Term Relationships
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -592,32 +732,46 @@
                 <div class="service-sidebar">
                   <ul class="service-menu list-unstyled mb-0">
                     <li class="active">
-                      <a href="qr-code-management.html"
-                        >QR Code Management System</a
+                      <a
+                        href="qr-code-management.html"
+                        id="subtab_qrcode_management"
+                        >QrCode Management</a
                       >
                     </li>
                     <li>
-                      <a href="campaign-management.html"
-                        >Campaign Management with QR</a
+                      <a
+                        href="campaign-management.html"
+                        id="subtab_campain_management"
+                        >Campaign Management</a
                       >
                     </li>
                     <li>
-                      <a href="event-management.html"
-                        >Event Management Solutions</a
+                      <a
+                        href="event-management.html"
+                        id="subtab_event_management"
+                        >Event Management</a
                       >
                     </li>
                     <li>
-                      <a href="consultant-management.html"
+                      <a
+                        href="consultant-management.html"
+                        id="subtab_consultant_management"
                         >Consultant Management</a
                       >
                     </li>
                     <li>
-                      <a href="warehouse-management.html"
+                      <a
+                        href="warehouse-management.html"
+                        id="subtab_warehouse_management"
                         >Warehouse Management</a
                       >
                     </li>
                     <li>
-                      <a href="bizcard-management.html">BizCard Management</a>
+                      <a
+                        href="bizcard-management.html"
+                        id="subtab_bizcard_management"
+                        >BizCard Management</a
+                      >
                     </li>
                   </ul>
 
@@ -625,12 +779,16 @@
                     class="contact-widget mt-6 rounded"
                     data-bg-img="images/contact-bg.jpg"
                   >
-                    <h5 class="mb-2">Contact us for help</h5>
-                    <p>
+                    <h5 class="mb-2" id="contact_us_for_help">
+                      Contact us for help
+                    </h5>
+                    <p id="contact_us_for_help_desc">
                       Get in touch and let us know how we can help touch as soon
                       as possible.
                     </p>
-                    <a class="themeht-btn" href="contact.html">Contact Us</a>
+                    <a class="themeht-btn" href="contact.html" id="contact_us"
+                      >Contact Us</a
+                    >
                   </div>
                 </div>
               </div>
@@ -648,7 +806,7 @@
           <div class="primary-footer">
             <div class="row">
               <div class="col-lg-5 col-md-12">
-                <h5>Get In Touch</h5>
+                <h5 id="get_in_touch">Get In Touch</h5>
                 <ul class="media-icon list-unstyled mb-8">
                   <li>
                     <p class="mb-0">
@@ -657,13 +815,13 @@
                     </p>
                   </li>
                   <li>
-                    <a href="mailto:Support@yis.VN">Support@yis.VN</a>
+                    <a href="mailto:support@yis.vn">support@yis.vn</a>
                   </li>
                   <li>
                     <a href="tel:+84704596663">+84704596663</a>
                   </li>
                 </ul>
-                <h5>Follow Us</h5>
+                <h5 id="follow_us">Follow Us</h5>
                 <ul class="list-inline ps-0 ms-0 footer-social">
                   <li class="list-inline-item">
                     <a href="https://www.facebook.com/YisMarTech">
@@ -693,17 +851,17 @@
                 </ul>
               </div>
               <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
-                <h5>Information</h5>
+                <h5 id="information">Information</h5>
                 <div class="row">
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us.html" id="about_us">About Us</a>
                       </li>
                       <li>
-                        <a href="services.html">Service</a>
+                        <a href="services.html" id="toptab_services">Service</a>
                       </li>
-                      <li>
+                      <li id="team">
                         <a href="team.html">Team</a>
                       </li>
                     </ul>
@@ -711,33 +869,35 @@
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="blog-right-sidebar.html">Blog</a>
+                        <a href="blog-right-sidebar.html" id="blog">Blog</a>
                       </li>
                       <li>
-                        <a href="error-404.html">Error 404</a>
+                        <a href="error-404.html" id="error_404">Error 404</a>
                       </li>
                       <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html" id="contact_us">Contact Us</a>
                       </li>
                     </ul>
                   </div>
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="faq.html">Faq</a>
+                        <a href="faq.html" id="faq">Faq</a>
                       </li>
                       <li>
-                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="privacy-policy.html" id="privacy_policy"
+                          >Privacy Policy</a
+                        >
                       </li>
                       <li>
-                        <a href="terms-and-conditions.html">Terms</a>
+                        <a href="terms-and-conditions.html" id="terms">Terms</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="row mt-8">
                   <div class="col-md-10">
-                    <h5>Subscribe Our Newsletter</h5>
+                    <h5 id="subscribe">Subscribe Our Newsletter</h5>
                     <div class="subscribe-form">
                       <form id="mc-form" class="mc-form">
                         <input
@@ -756,7 +916,7 @@
                           value="Subscribe Now"
                         />
                       </form>
-                      <small class="d-block mt-3"
+                      <small class="d-block mt-3" id="subscribe_us"
                         >Get started for 1 Month free trial No Purchace
                         required.</small
                       >
@@ -772,9 +932,9 @@
             <div class="copyright">
               <div class="row text-center">
                 <div class="col">
-                  Copyright 2023 Soften Theme by
+                  Copyright 2023 Yis Theme by
                   <u>
-                    <a href="#">ThemeHt</a>
+                    <a href="#">Yis</a>
                   </u>
                   | All Rights Reserved
                 </div>
@@ -834,5 +994,6 @@
     <script src="js/theme-script.js"></script>
 
     <!-- inject js end -->
+    <script src="./js/language.js"></script>
   </body>
 </html>

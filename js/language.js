@@ -232,6 +232,43 @@ document.addEventListener("DOMContentLoaded", function () {
         lucky_spin_campain_desc_4:
           "Options for instant win notifications and reward distribution",
         benefits_of_using_program: "Benefits of using the program",
+        event_page_title:
+          "Yismartech: Your Trusted Partner for Creative Advertising Solutions",
+        event_1: "Posm promotion",
+        event_desc_1:
+          "We provide high-quality POSM (Point of Sales Material) solutions that enhance brand recognition and drive sales. With many years of experience in the industry, we offer design, production, and installation services for POSM products such as standees, banners, posters, and various other types. Our team of experts is committed to delivering impressive products and dedicated service, ensuring optimal effectiveness at the point of sale.",
+        event_2: "Tvc, Viral clip",
+        event_desc_2:
+          "We provide best Software Service for any type of business as stragegy, management.",
+        event_3: "Corporate Event",
+        event_desc_3:
+          "We provide best Software Service for any type of business as stragegy, management.",
+        event_4: "Other Branding Activities",
+        event_desc_4:
+          "We provide best Software Service for any type of business as stragegy, management.",
+        consultant_title: "Yismartech: Consultant",
+        consultant_1: "Mobile App Project",
+        consultant_2: "Technology Solution",
+        consultant_3: "Digital transformation with Data Driven Process",
+        consultant_4: "Contact Center",
+        warehouse_1:
+          "Yis warehouse management solution focuses on automating warehouse operations that include distribution, inventory tracking, and keeping costs & errors to a minimum.",
+        warehouse_2:
+          "OCR tech to collect invoice & Delivery note on Delivery process",
+        warehouse_3: "Optimizes with business & requisitions by customers",
+        warehouse_4:
+          "Our Solution is seamlessly integrated with ERP which optimizes the entire warehouse operations, giving the exact data visibility to make better decisions.Leverage our end-to-end cloud-based solution to keep your operations running smoothly and quickly. ",
+        benefits: "Benefits",
+        benefits_1:
+          "Optimize business operations and meet customer requirements.",
+        benefits_2:
+          "Closely manage material consumption to ensure efficient and cost-effective usage.",
+        benefits_3:
+          "Easily create production plans based on business plans, orders, and inventory.",
+        benefits_4:
+          "Real-time reporting, accurately reflecting reality, making decision-making easier.",
+        benefits_5:
+          "Track available inventory to plan production appropriately, avoiding shortages or excess.",
       },
     },
     vi: {
@@ -431,6 +468,43 @@ document.addEventListener("DOMContentLoaded", function () {
         lucky_spin_campain_desc_4:
           "Tùy chọn thông báo trúng thưởng ngay lập tức và phân phối phần thưởng",
         benefits_of_using_program: "Lợi ích khi sử dụng chương trình",
+        event_page_title:
+          "Yismartech: Đối Tác Đáng Tin Cậy Cho Giải Pháp Quảng Cáo Sáng Tạo",
+        event_1: "Quảng bá POSM",
+        event_desc_1:
+          "Chúng tôi cung cấp các giải pháp POSM (Vật liệu tại điểm bán) chất lượng cao, giúp tăng cường nhận diện thương hiệu và thúc đẩy doanh số. Với nhiều năm kinh nghiệm trong ngành, chúng tôi cung cấp các dịch vụ thiết kế, sản xuất và lắp đặt cho các sản phẩm POSM như standee, banner, poster và nhiều loại khác. Đội ngũ chuyên gia của chúng tôi cam kết mang đến những sản phẩm ấn tượng và dịch vụ tận tâm, đảm bảo hiệu quả tối ưu tại điểm bán.",
+        event_2: "TVC, Clip lan truyền",
+        event_desc_2:
+          "Chúng tôi cung cấp dịch vụ phần mềm tốt nhất cho mọi loại hình kinh doanh về chiến lược và quản lý.",
+        event_3: "Sự kiện công ty",
+        event_desc_3:
+          "Chúng tôi cung cấp dịch vụ phần mềm tốt nhất cho mọi loại hình kinh doanh về chiến lược và quản lý.",
+        event_4: "Các hoạt động xây dựng thương hiệu khác",
+        event_desc_4:
+          "Chúng tôi cung cấp dịch vụ phần mềm tốt nhất cho mọi loại hình kinh doanh về chiến lược và quản lý.",
+        consultant_title: "Yismartech: Tư vấn",
+        consultant_1: "Dự án ứng dụng di động",
+        consultant_2: "Giải pháp công nghệ",
+        consultant_3: "Chuyển đổi số với quy trình dựa trên dữ liệu",
+        consultant_4: "Trung tâm liên hệ",
+        warehouse_1:
+          "Giải pháp quản lý kho của Yis tập trung vào việc tự động hóa các hoạt động kho bao gồm phân phối, theo dõi hàng tồn kho và giữ chi phí & lỗi ở mức tối thiểu.",
+        warehouse_2:
+          "Công nghệ OCR thu thập hóa đơn & ghi chú giao hàng trong quá trình giao hàng.",
+        warehouse_3: "Tối ưu hóa với doanh nghiệp và yêu cầu từ khách hàng.",
+        warehouse_4:
+          "Giải pháp của chúng tôi tích hợp liền mạch với ERP, tối ưu hóa toàn bộ hoạt động kho, cung cấp khả năng hiển thị dữ liệu chính xác để đưa ra quyết định tốt hơn. Tận dụng giải pháp đám mây từ đầu đến cuối của chúng tôi để giữ cho các hoạt động diễn ra suôn sẻ và nhanh chóng.",
+        benefits: "Lợi ích",
+        benefits_1:
+          "Tối ưu hóa hoạt động kinh doanh và đáp ứng yêu cầu của khách hàng.",
+        benefits_2:
+          "Quản lý chặt chẽ việc tiêu thụ nguyên vật liệu để đảm bảo sử dụng hiệu quả và tiết kiệm chi phí.",
+        benefits_3:
+          "Dễ dàng tạo kế hoạch sản xuất dựa trên kế hoạch kinh doanh, đơn đặt hàng và hàng tồn kho.",
+        benefits_4:
+          "Báo cáo theo thời gian thực, phản ánh chính xác thực tế, giúp việc ra quyết định trở nên dễ dàng hơn.",
+        benefits_5:
+          "Theo dõi hàng tồn kho có sẵn để lên kế hoạch sản xuất phù hợp, tránh tình trạng thiếu hụt hoặc dư thừa.",
       },
     },
   };

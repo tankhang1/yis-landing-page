@@ -118,7 +118,12 @@
                       <!-- Home -->
 
                       <li class="nav-item dropdown">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a
+                          class="nav-link active"
+                          href="index.html"
+                          id="toptab_home"
+                          >Home</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="index.html">Home 01</a>
@@ -138,7 +143,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Pages</a>
+                        <a class="nav-link" href="#" id="toptab_pages">Pages</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="about-us.html">About Us</a>
@@ -180,7 +185,7 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#" id="toptab_shop">Shop</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="product-grid.html">Product Grid</a>
@@ -210,41 +215,56 @@
                           class="nav-link dropdown-toggle"
                           href="#"
                           data-bs-toggle="dropdown"
+                          id="toptab_services"
                           >Services</a
                         >
                         <ul class="dropdown-menu">
                           <li>
-                            <a href="qr-code-management.html"
+                            <a
+                              href="qr-code-management.html"
+                              id="subtab_qrcode_management"
                               >QrCode Management</a
                             >
                           </li>
                           <li>
-                            <a href="campaign-management.html"
+                            <a
+                              href="campaign-management.html"
+                              id="subtab_campain_management"
                               >Campaign Management</a
                             >
                           </li>
                           <li>
-                            <a href="event-management.html">Event Management</a>
+                            <a
+                              href="event-management.html"
+                              id="subtab_event_management"
+                              >Event Management</a
+                            >
                           </li>
                           <li>
-                            <a href="consultant-management.html"
+                            <a
+                              href="consultant-management.html"
+                              id="subtab_consultant_management"
                               >Consultant Management</a
                             >
                           </li>
                           <li>
-                            <a href="warehouse-management.html"
+                            <a
+                              href="warehouse-management.html"
+                              id="subtab_warehouse_management"
                               >Warehouse Management</a
                             >
                           </li>
                           <li>
-                            <a href="bizcard-management.html"
+                            <a
+                              href="bizcard-management.html"
+                              id="subtab_bizcard_management"
                               >BizCard Management</a
                             >
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#" id="toptab_news">News</a>
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="blog-left-sidebar.html"
@@ -262,7 +282,9 @@
                         </ul> -->
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#" id="toptab_contact"
+                          >Contact</a
+                        >
                         <!-- <ul class="dropdown-menu">
                           <li>
                             <a href="contact.html">Contact 1</a>
@@ -277,6 +299,7 @@
 
                   <div class="dropdown d-none d-lg-block">
                     <img
+                      id="current-language-icon"
                       src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                       style="height: 25px; margin-right: 15px"
                       class="rounded-1 dropdown-toggle pointer-event"
@@ -288,34 +311,39 @@
                       <li
                         role="button"
                         class="text-black fw-bold mb-2 text-color-primary"
+                        id="language-english"
                       >
                         <img
                           src="https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
                         English
                       </li>
                       <li
                         role="button"
                         class="text-black fw-bold text-color-primary"
+                        id="language-vietnamese"
                       >
                         <img
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png"
                           style="height: 25px; width: 45px; margin-right: 15px"
-                          class="rounded-1 dropdown-toggle pointer-event"
+                          class="rounded-1 pointer-event"
                         />
-                        Tiếng việt
+                        Tiếng Việt
                       </li>
                     </ul>
                   </div>
-                  <a class="themeht-btn dark-btn" href="#">Contact Us</a>
+                  <a class="themeht-btn dark-btn" href="#" id="contact_us"
+                    >Contact Us</a
+                  >
                 </nav>
               </div>
             </div>
           </div>
         </div>
       </header>
+
       <!--header end-->
 
       <!--page title start-->
@@ -324,18 +352,28 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8 col-md-12">
-              <h1><span>Event</span> Management</h1>
+              <h1
+                class="fw-bold text-color-primary"
+                id="subtab_event_management"
+              >
+                Event Management
+              </h1>
               <nav aria-label="breadcrumb" class="page-breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="index.html">
-                      <i class="bi bi-house-door me-1"></i>Home</a
+                    <a href="index.html" class="d-flex align-items-center">
+                      <i class="bi bi-house-door me-1"></i>
+                      <p id="toptab_home">Home</p></a
                     >
                   </li>
                   <li class="breadcrumb-item">
-                    <a href="#">Services</a>
+                    <a href="#" id="toptab_services">Services</a>
                   </li>
-                  <li class="breadcrumb-item active" aria-current="page">
+                  <li
+                    class="breadcrumb-item active"
+                    aria-current="page"
+                    id="subtab_event_management"
+                  >
                     Event Management
                   </li>
                 </ol>
@@ -377,8 +415,8 @@
                   <div class="row">
                     <div class="col-lg-8">
                       <div class="theme-title">
-                        <h6>Services</h6>
-                        <h2 class="text-color-primary">
+                        <h6 id="toptab_services">Services</h6>
+                        <h2 class="text-color-primary" id="event_page_title">
                           Yismartech: Your Trusted Partner for Creative
                           Advertising Solutions
                         </h2>
@@ -397,11 +435,13 @@
                             />
                           </div>
                           <div class="service-title">
-                            <h4 class="text-color-primary">Posm promotion</h4>
+                            <h4 class="text-color-primary" id="event_1">
+                              Posm promotion
+                            </h4>
                           </div>
                         </div>
                         <div class="service-desc">
-                          <p>
+                          <p id="event_desc_1">
                             We provide high-quality POSM (Point of Sales
                             Material) solutions that enhance brand recognition
                             and drive sales. With many years of experience in
@@ -429,11 +469,13 @@
                             />
                           </div>
                           <div class="service-title">
-                            <h4 class="text-color-primary">Tvc, Viral clip</h4>
+                            <h4 class="text-color-primary" id="event_2">
+                              Tvc, Viral clip
+                            </h4>
                           </div>
                         </div>
                         <div class="service-desc">
-                          <p style="height: 250px">
+                          <p style="height: 250px" id="event_desc_2">
                             We provide best Software Service for any type of
                             business as stragegy, management.
                           </p>
@@ -454,11 +496,13 @@
                             />
                           </div>
                           <div class="service-title">
-                            <h4 class="text-color-primary">Corporate Event</h4>
+                            <h4 class="text-color-primary" id="event_3">
+                              Corporate Event
+                            </h4>
                           </div>
                         </div>
                         <div class="service-desc">
-                          <p>
+                          <p id="event_desc_3">
                             We provide best Software Service for any type of
                             business as stragegy, management.
                           </p>
@@ -479,13 +523,13 @@
                             />
                           </div>
                           <div class="service-title">
-                            <h4 class="text-color-primary">
+                            <h4 class="text-color-primary" id="event_4">
                               Other Branding Activities
                             </h4>
                           </div>
                         </div>
                         <div class="service-desc">
-                          <p>
+                          <p id="event_desc_4">
                             We provide best Software Service for any type of
                             business as stragegy, management.
                           </p>
@@ -516,7 +560,7 @@
           <div class="primary-footer">
             <div class="row">
               <div class="col-lg-5 col-md-12">
-                <h5>Get In Touch</h5>
+                <h5 id="get_in_touch">Get In Touch</h5>
                 <ul class="media-icon list-unstyled mb-8">
                   <li>
                     <p class="mb-0">
@@ -525,13 +569,13 @@
                     </p>
                   </li>
                   <li>
-                    <a href="mailto:Support@yis.VN">Support@yis.VN</a>
+                    <a href="mailto:support@yis.vn">support@yis.vn</a>
                   </li>
                   <li>
                     <a href="tel:+84704596663">+84704596663</a>
                   </li>
                 </ul>
-                <h5>Follow Us</h5>
+                <h5 id="follow_us">Follow Us</h5>
                 <ul class="list-inline ps-0 ms-0 footer-social">
                   <li class="list-inline-item">
                     <a href="https://www.facebook.com/YisMarTech">
@@ -561,17 +605,17 @@
                 </ul>
               </div>
               <div class="col-lg-7 col-md-12 mt-6 mt-lg-0">
-                <h5>Information</h5>
+                <h5 id="information">Information</h5>
                 <div class="row">
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us.html" id="about_us">About Us</a>
                       </li>
                       <li>
-                        <a href="services.html">Service</a>
+                        <a href="services.html" id="toptab_services">Service</a>
                       </li>
-                      <li>
+                      <li id="team">
                         <a href="team.html">Team</a>
                       </li>
                     </ul>
@@ -579,33 +623,35 @@
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled w-100">
                       <li>
-                        <a href="blog-right-sidebar.html">Blog</a>
+                        <a href="blog-right-sidebar.html" id="blog">Blog</a>
                       </li>
                       <li>
-                        <a href="error-404.html">Error 404</a>
+                        <a href="error-404.html" id="error_404">Error 404</a>
                       </li>
                       <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html" id="contact_us">Contact Us</a>
                       </li>
                     </ul>
                   </div>
                   <div class="col-lg-4 col-md-4 mt-5 mt-md-0 footer-menu">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="faq.html">Faq</a>
+                        <a href="faq.html" id="faq">Faq</a>
                       </li>
                       <li>
-                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="privacy-policy.html" id="privacy_policy"
+                          >Privacy Policy</a
+                        >
                       </li>
                       <li>
-                        <a href="terms-and-conditions.html">Terms</a>
+                        <a href="terms-and-conditions.html" id="terms">Terms</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="row mt-8">
                   <div class="col-md-10">
-                    <h5>Subscribe Our Newsletter</h5>
+                    <h5 id="subscribe">Subscribe Our Newsletter</h5>
                     <div class="subscribe-form">
                       <form id="mc-form" class="mc-form">
                         <input
@@ -624,7 +670,7 @@
                           value="Subscribe Now"
                         />
                       </form>
-                      <small class="d-block mt-3"
+                      <small class="d-block mt-3" id="subscribe_us"
                         >Get started for 1 Month free trial No Purchace
                         required.</small
                       >
@@ -640,9 +686,9 @@
             <div class="copyright">
               <div class="row text-center">
                 <div class="col">
-                  Copyright 2023 Soften Theme by
+                  Copyright 2023 Yis Theme by
                   <u>
-                    <a href="#">ThemeHt</a>
+                    <a href="#">Yis</a>
                   </u>
                   | All Rights Reserved
                 </div>
@@ -651,7 +697,6 @@
           </div>
         </div>
       </footer>
-
       <!--footer end-->
     </div>
 
@@ -702,5 +747,6 @@
     <script src="js/theme-script.js"></script>
 
     <!-- inject js end -->
+    <script src="./js/language.js"></script>
   </body>
 </html>
