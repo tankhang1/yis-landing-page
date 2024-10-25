@@ -33,60 +33,28 @@ document.addEventListener("DOMContentLoaded", function () {
         service_2_desc:
           " We provide best Software Service for any type of business as stragegy, management.",
         service_3: "Event Management Solutions",
-        service_3_desc: `We provide event management and communication solutions
-                      through a marketing platform based on data analysis,
-                      helping to optimize the event experience and increase
-                      communication effectiveness.`,
+        service_3_desc: `We provide event management and communication solutions through a marketing platform based on data analysis, helping to optimize the event experience and increase communication effectiveness.`,
         service_4: "IConsultant Services",
-        service_4_desc: `We empower businesses to leverage cutting-edge
-                      technologies to accelerate growth, streamline operations,
-                      and enhance customer experiences.`,
+        service_4_desc: `We empower businesses to leverage cutting-edge technologies to accelerate growth, streamline operations, and enhance customer experiences.`,
         service_5: "IWarehouse Services",
-        service_5_desc: `Yis. warehouse management solution focuses on automating
-                      warehouse operations that include distribution, inventory
-                      tracking, and keeping costs & errors to a minimum.`,
+        service_5_desc: `Yis warehouse management solution focuses on automating warehouse operations that include distribution, inventory tracking, and keeping costs & errors to a minimum.`,
         service_6: "IBizCard Services",
-        service_6_desc: ` Create custom IBizCard with your customised branding.
-                      Build a dynamic template for each team member specific to
-                      your company's needs. Have them direct prospects to key
-                      information you want them to share with a tap of their
-                      cards Direct potential customers to a specific landing
-                      page, product video, menu, pricelist.... the possibilities
-                      are endless!`,
+        service_6_desc: ` Create custom IBizCard with your customised branding. Build a dynamic template for each team member specific to your company's needs. Have them direct prospects to key information you want them to share with a tap of their cards Direct potential customers to a specific landing page, product video, menu, pricelist.... the possibilities are endless!`,
         about_us_title: `Yis MarTech - Pioneering Marketing Technology, Leading Success`,
-        about_us_desc: ` Yis MarTech, Your Service, offers a wide range of marketing
-                  technologies to help achieve marketing objectives or goals.
-                  Yis MarTech has become a vital component in digital marketing
-                  campaigns, but it can also be utilized to optimize marketing
-                  efforts across any channel.`,
+        about_us_desc: ` Yis MarTech, Your Service, offers a wide range of marketing technologies to help achieve marketing objectives or goals Yis MarTech has become a vital component in digital marketing campaigns, but it can also be utilized to optimize marketing efforts across any channel.`,
         outstanding_title: "Typical solutions",
         outstanding_title_1: "QR Code Loyalty & Sell-out",
-        outstanding_title_1_desc: `Implement promotions, win prizes, and accumulate points
-                      right on the product, applicable to both consumers and
-                      distribution channels (sell-out).`,
+        outstanding_title_1_desc: `Implement promotions, win prizes, and accumulate points right on the product, applicable to both consumers and distribution channels (sell-out).`,
         outstanding_title_2: "QR Code Anti-counterfeit",
-        outstanding_title_2_desc: `See your authentic mission, and values come to life with a
-                      unique brand image.`,
+        outstanding_title_2_desc: `See your authentic mission, and values come to life with a unique brand image.`,
         outstanding_title_3: "QR Code Traceability",
-        outstanding_title_3_desc: `Solution for businesses and cooperatives to trace product
-                      origins according to national standards.`,
+        outstanding_title_3_desc: `Solution for businesses and cooperatives to trace product origins according to national standards.`,
         outstanding_title_4: "QR Code Traceability",
-        outstanding_title_4_desc: `Solution for businesses and cooperatives to trace product
-                                    origins according to national standards.`,
+        outstanding_title_4_desc: `Solution for businesses and cooperatives to trace product origins according to national standards.`,
         vision: "Vision",
-        vision_desc: `We aim to become a trusted partner for our customers,
-                    delivering optimal solutions with the guiding principles of
-                    "DEDICATION - CREATIVITY - EFFICIENCY." With a commitment
-                    that extends beyond words to actions, we focus on innovation
-                    and creating genuine value, building sustainable and
-                    long-term success together with our customers.`,
+        vision_desc: `We aim to become a trusted partner for our customers, delivering optimal solutions with the guiding principles of "DEDICATION - CREATIVITY - EFFICIENCY." With a commitment that extends beyond words to actions, we focus on innovation and creating genuine value, building sustainable and long-term success together with our customers.`,
         mission: "Mission",
-        mission_desc: `Yis MarTech is an innovative marketing company that delivers
-                    complete and cost-effective solutions to clients. We bring a
-                    world of strategic, technical, design and implementation
-                    expertise to our customers, increasing the effectiveness of
-                    their marketing initiatives and helping them meet the
-                    challenges of todays’ constantly changing environment.`,
+        mission_desc: `Yis MarTech is an innovative marketing company that delivers complete and cost-effective solutions to clients. We bring a world of strategic, technical, design and implementation expertise to our customers, increasing the effectiveness of their marketing initiatives and helping them meet the challenges of todays’ constantly changing environment.`,
         project_done: "Project Done",
         success_rate: "Success Rate",
         winning_awards: "Winning Awards",
@@ -132,13 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
         step5_desc_2: "Ensure the personnel operate the system correctly",
         step5_desc_3: "Sign the acceptance test report",
         qr_code_solutions: "QrCode Solutions",
-        qr_code_solutions_desc: `QrCode Solutions Yis Martech's QR code solution includes
-                  Warranty, Anti-counterfeiting, Traceability, and Marketing,
-                  catering to various production models and product distribution
-                  management systems. Businesses can manage, generate QR codes,
-                  print labels, and control product quality on their own. All
-                  functions are integrated into a single system, simplifying
-                  management and enhancing overall efficiency.`,
+        qr_code_solutions_desc: `QrCode Solutions Yis Martech's QR code solution includes Warranty, Anti-counterfeiting, Traceability, and Marketing, catering to various production models and product distribution management systems. Businesses can manage, generate QR codes, print labels, and control product quality on their own. All functions are integrated into a single system, simplifying management and enhancing overall efficiency.`,
         qr_code_traceability_and_anti_counterfeiting:
           "QrCode for Traceability and anti-counterfeiting",
         qr_code_traceability_and_anti_counterfeiting_desc_1:
@@ -168,30 +130,20 @@ document.addEventListener("DOMContentLoaded", function () {
         qr_code_for_warranty_desc_3: "Enhance After-sales Service",
         qr_code_for_warranty_desc_4: "Activate warranty",
         why_you_should_choose_yis: "Why You Should Choose Yis Solutions?",
-        why_you_should_choose_yis_title: `At Yis, we understand the importance of efficiency,
-                        security, and innovation in your business operations.
-                        Our solutions, powered by cutting-edge technology, offer
-                        a range of benefits that make us the right partner for
-                        your business. Here's why you should choose Yis:`,
+        why_you_should_choose_yis_title: `At Yis, we understand the importance of efficiency, security, and innovation in your business operations. Our solutions, powered by cutting-edge technology, offer a range of benefits that make us the right partner for your business. Here's why you should choose Yis:`,
         why_you_should_choose_yis_desc_1: "Comprehensive QrCode Solutions",
         why_you_should_choose_yis_desc_2: "Tailored for Every Industry",
         why_you_should_choose_yis_desc_3:
           "Boost Customer Loyalty and Engagement",
         why_you_should_choose_yis_desc_4: "Seamless Integration",
         how_can_you_connect_with_yis: "How Can You Connect With Yis?",
-        how_can_you_connect_with_yis_title: `Connecting with Yis is simple, and we’re always ready
-                          to assist you in implementing our solutions. Here's
-                          how you can reach us:`,
+        how_can_you_connect_with_yis_title: `Connecting with Yis is simple, and we’re always ready to assist you in implementing our solutions. Here's how you can reach us:`,
         how_can_you_connect_with_yis_desc_1: "Visit Our Website",
         how_can_you_connect_with_yis_desc_2: "Schedule a Consultation",
         how_can_you_connect_with_yis_desc_3: "Email Us",
         how_can_you_connect_with_yis_desc_4: "Follow Us on Social Media",
         prioritizing_the_customer: "Prioritizing the Customer’s Needs",
-        prioritizing_the_customer_title: `At Yis, our customers are at the heart of everything
-                          we do. We understand that every business is unique,
-                          and we strive to provide customized solutions that
-                          address your specific challenges. Here's how we
-                          prioritize customer needs:`,
+        prioritizing_the_customer_title: `At Yis, our customers are at the heart of everything we do. We understand that every business is unique, and we strive to provide customized solutions that address your specific challenges. Here's how we prioritize customer needs:`,
         prioritizing_the_customer_desc_1: "Tailored Solutions",
         prioritizing_the_customer_desc_2: "Exceptional Customer Support",
         prioritizing_the_customer_desc_3: "Ongoing Innovation",
@@ -269,6 +221,37 @@ document.addEventListener("DOMContentLoaded", function () {
           "Real-time reporting, accurately reflecting reality, making decision-making easier.",
         benefits_5:
           "Track available inventory to plan production appropriately, avoiding shortages or excess.",
+        bizcard_title: "BizCard Solutions",
+        bizcard_desc: `Create custom IBizCard with your customised branding. Build a dynamic template for each team member specific to your company's needs. Have them direct prospects to key information you want them to share with a tap of their cards Direct potential customers to a specific landing page, product video, menu, pricelist.... the possibilities are endless!`,
+        why_should_we_choose_bizcard: "Why should we choose BizCard?",
+        why_should_we_choose_bizcard_title_1: "Unlimited Sharing",
+        why_should_we_choose_bizcard_desc_1:
+          "Never run out of business cards again.",
+        why_should_we_choose_bizcard_title_2: "No App Required",
+        why_should_we_choose_bizcard_desc_2:
+          "That you, or your new connection, need to download first.",
+        why_should_we_choose_bizcard_title_3: "Unique Profile Link",
+        why_should_we_choose_bizcard_desc_3:
+          "Get your custom link at icard.yis.vn/yourname.",
+        why_should_we_choose_bizcard_title_4: "Free Info Updates",
+        why_should_we_choose_bizcard_desc_4:
+          "Edit your information anytime at no extra cost.",
+        bizcard_benefits: "Benefits",
+        bizcard_benefits_title_1: "Experience Seamless Integration",
+        bizcard_benefits_desc_1:
+          "Easily integrate your digital business cards with existing contact management systems, ensuring that all your professional connections are organized and easily accessible. This seamless integration saves time and reduces the hassle of manually updating contact information.",
+        bizcard_benefits_title_2: "Customization at Your Fingertips",
+        bizcard_benefits_desc_2:
+          "Personalize your digital business card to reflect your personal brand or business identity. Choose from a variety of templates, colors, and fonts to create a card that stands out and leaves a lasting impression.",
+        bizcard_benefits_title_3: "Analytics and Insights",
+        bizcard_benefits_desc_3:
+          "Gain valuable insights into your networking efforts with built-in analytics. Track how often your card is viewed or shared, helping you understand your reach and refine your networking strategies.",
+        bizcard_benefits_title_4: "Environmentally Responsible",
+        bizcard_benefits_desc_4:
+          "By choosing digital business cards, you are taking a step towards reducing deforestation and conserving vital resources. This eco-friendly choice aligns with a global movement towards more sustainable business practices.",
+        bizcard_benefits_title_5: "Unlock New Opportunities",
+        bizcard_benefits_desc_5:
+          "With digital business cards, you're not just sharing contact information; you're opening doors to new opportunities and collaborations. Stay ahead in the ever-evolving business landscape and connect with confidence.",
       },
     },
     vi: {
@@ -505,15 +488,52 @@ document.addEventListener("DOMContentLoaded", function () {
           "Báo cáo theo thời gian thực, phản ánh chính xác thực tế, giúp việc ra quyết định trở nên dễ dàng hơn.",
         benefits_5:
           "Theo dõi hàng tồn kho có sẵn để lên kế hoạch sản xuất phù hợp, tránh tình trạng thiếu hụt hoặc dư thừa.",
+        bizcard_title: "Giải Pháp BizCard",
+        bizcard_desc:
+          "Tạo IBizCard tùy chỉnh với thương hiệu của bạn. Xây dựng mẫu động cho từng thành viên trong nhóm phù hợp với nhu cầu của công ty bạn. Cho phép họ hướng dẫn khách hàng tiềm năng đến các thông tin chính mà bạn muốn chia sẻ chỉ với một cú chạm vào thẻ. Dẫn khách hàng tiềm năng đến trang đích, video sản phẩm, thực đơn, bảng giá... các khả năng là vô tận!",
+        why_should_we_choose_bizcard: "Tại sao nên chọn BizCard?",
+        why_should_we_choose_bizcard_title_1: "Chia Sẻ Không Giới Hạn",
+        why_should_we_choose_bizcard_desc_1:
+          "Không bao giờ hết danh thiếp nữa.",
+        why_should_we_choose_bizcard_title_2: "Không Cần Ứng Dụng",
+        why_should_we_choose_bizcard_desc_2:
+          "Không cần tải ứng dụng, bạn hoặc kết nối mới của bạn đều có thể sử dụng.",
+        why_should_we_choose_bizcard_title_3: "Liên Kết Hồ Sơ Độc Đáo",
+        why_should_we_choose_bizcard_desc_3:
+          "Nhận liên kết tùy chỉnh của bạn tại icard.yis.vn/tênbạn.",
+        why_should_we_choose_bizcard_title_4: "Cập Nhật Thông Tin Miễn Phí",
+        why_should_we_choose_bizcard_desc_4:
+          "Chỉnh sửa thông tin của bạn bất cứ lúc nào mà không mất phí.",
+        bizcard_benefits: "Lợi Ích",
+        bizcard_benefits_title_1: "Trải Nghiệm Tích Hợp Mượt Mà",
+        bizcard_benefits_desc_1:
+          "Dễ dàng tích hợp danh thiếp số của bạn với hệ thống quản lý liên hệ hiện tại, đảm bảo rằng tất cả các kết nối chuyên nghiệp của bạn đều được tổ chức và dễ dàng truy cập. Tích hợp mượt mà này giúp tiết kiệm thời gian và giảm bớt phiền phức của việc cập nhật thông tin liên hệ thủ công.",
+        bizcard_benefits_title_2: "Tùy Chỉnh Theo Ý Bạn",
+        bizcard_benefits_desc_2:
+          "Cá nhân hóa danh thiếp số của bạn để thể hiện thương hiệu cá nhân hoặc doanh nghiệp của bạn. Chọn từ nhiều mẫu, màu sắc, và phông chữ để tạo một danh thiếp nổi bật và để lại ấn tượng lâu dài.",
+        bizcard_benefits_title_3: "Phân Tích và Thông Tin Chi Tiết",
+        bizcard_benefits_desc_3:
+          "Nhận thông tin chi tiết quý giá về nỗ lực kết nối của bạn với phân tích tích hợp. Theo dõi tần suất danh thiếp của bạn được xem hoặc chia sẻ, giúp bạn hiểu được tầm với và tối ưu hóa chiến lược kết nối của mình.",
+        bizcard_benefits_title_4: "Trách Nhiệm với Môi Trường",
+        bizcard_benefits_desc_4:
+          "Bằng cách chọn danh thiếp số, bạn đang góp phần giảm thiểu nạn phá rừng và bảo tồn các nguồn tài nguyên quan trọng. Sự lựa chọn thân thiện với môi trường này phù hợp với phong trào toàn cầu hướng đến các thực hành kinh doanh bền vững hơn.",
+        bizcard_benefits_title_5: "Mở Khóa Các Cơ Hội Mới",
+        bizcard_benefits_desc_5:
+          "Với danh thiếp số, bạn không chỉ chia sẻ thông tin liên hệ; bạn đang mở ra các cơ hội và hợp tác mới. Luôn đi trước trong bối cảnh kinh doanh không ngừng phát triển và kết nối với sự tự tin.",
       },
     },
   };
 
   // Function to update language and flag
-  function updateLanguage(language) {
+  function updateLanguage() {
+    // Get the saved language from localStorage or default to Vietnamese (vi)
+    const language = localStorage.getItem("language") ?? "vi";
     const langData = translations[language];
+
+    // Update the language icon
     document.getElementById("current-language-icon").src = langData.icon;
 
+    // Update the text content of all elements with matching IDs
     Object.keys(translations.en.text).forEach((key) => {
       const elements = document.querySelectorAll(`[id="${key}"]`);
       elements.forEach((element) => {
@@ -522,16 +542,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Handle language change on click
+  // Set up event listeners for language change on click
   document
     .getElementById("language-english")
     .addEventListener("click", function () {
-      updateLanguage("en");
+      localStorage.setItem("language", "en");
+      updateLanguage();
     });
 
   document
     .getElementById("language-vietnamese")
     .addEventListener("click", function () {
-      updateLanguage("vi");
+      localStorage.setItem("language", "vi");
+      updateLanguage();
     });
+
+  // Run the updateLanguage function on page load to apply the saved language
+  window.addEventListener("load", updateLanguage);
 });
