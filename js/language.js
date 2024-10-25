@@ -200,6 +200,38 @@ document.addEventListener("DOMContentLoaded", function () {
         contact_us_for_help: "Contact us for help",
         contact_us_for_help_desc:
           "Get in touch and let us know how we can help touch as soon as possible.",
+        campain_management_with_qrcode: "Campaign Management with QrCode",
+        campain_management_with_qrcode_desc:
+          "Yis MarTech is proud to be the deployer of an interactive marketing campaign management solution based on QR code in Vietnam, bringing you the offline vs. Online through QR technology, measure and analyze your customer behavior, help you create Marketing campaigns that are synchronized with social & Digital platforms and have outstanding ROI.",
+        point_accumulation_campain: "Point Accumulation Campaign",
+        point_accumulation_campain_desc: `Here’s content describing each type of campaign: Point Accumulation Campaign Encourage customer loyalty by allowing users to earn points with every purchase or activity. Points can be accumulated over time and redeemed for rewards such as discounts, special offers, or products. This campaign is ideal for increasing customer engagement and driving repeat purchases, as it incentivizes customers to stay active with your brand.`,
+        point_accumulation_campain_desc_1:
+          "Points for purchases, referrals, or social media activities",
+        point_accumulation_campain_desc_2: "Customizable rewards system",
+        point_accumulation_campain_desc_3:
+          "Real-time tracking of point balances",
+        point_accumulation_campain_desc_4:
+          "Gamified progress indicators to motivate participation",
+        topup_campain: "Topup Campaign",
+        topup_campain_desc:
+          "Attract new customers and retain existing ones by offering gifts or giveaways as part of your marketing strategy. Gifts can be distributed based on specific criteria, such as purchases over a certain amount, special events, or limited-time promotions. This campaign helps to create a positive brand impression and build customer goodwill.",
+        topup_campain_desc_1:
+          "Automatic gift distribution upon meeting criteria",
+        topup_campain_desc_2:
+          "Customizable gift options (e.g., product samples, discounts)",
+        topup_campain_desc_3:
+          "Integration with QR codes for easy gift redemption",
+        topup_campain_desc_4:
+          "Ability to track gift campaign success and customer satisfaction",
+        lucky_spin_campain: "Lucky Spin Campaign",
+        lucky_spin_campain_desc: `Add a fun and engaging element to your marketing efforts with a lucky spin campaign, where customers get a chance to spin a digital wheel to win prizes. This gamified approach boosts excitement and encourages participation. It can be used to reward purchases, increase social media engagement, or draw attention during special events.`,
+        lucky_spin_campain_desc_1:
+          "Customizable spin wheel with various reward options",
+        lucky_spin_campain_desc_2: "Real-time monitoring of campaign activity",
+        lucky_spin_campain_desc_3: "Integration with mobile apps or websites",
+        lucky_spin_campain_desc_4:
+          "Options for instant win notifications and reward distribution",
+        benefits_of_using_program: "Benefits of using the program",
       },
     },
     vi: {
@@ -211,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
         toptab_services: "Dịch Vụ",
         toptab_news: "Tin Tức",
         toptab_contact: "Liên Hệ",
-        subtab_qrcode_management: "Quản Lý QR Code",
+        subtab_qrcode_management: "Quản Lý QrCode",
         subtab_campain_management: "Quản Lý Chiến Dịch",
         subtab_event_management: "Quản Lý Sự Kiện",
         subtab_consultant_management: "Quản Lý Tư Vấn",
@@ -366,6 +398,39 @@ document.addEventListener("DOMContentLoaded", function () {
         contact_us_for_help: "Liên hệ với chúng tôi để được hỗ trợ",
         contact_us_for_help_desc:
           "Hãy liên hệ và cho chúng tôi biết cách chúng tôi có thể giúp bạn sớm nhất có thể.",
+        campain_management_with_qrcode: "Quản lý chiến dịch với mã QR",
+        campain_management_with_qrcode_desc:
+          "Yis MarTech tự hào là đơn vị triển khai giải pháp quản lý chiến dịch tiếp thị tương tác dựa trên mã QR tại Việt Nam, mang đến trải nghiệm ngoại tuyến và trực tuyến qua công nghệ QR, đo lường và phân tích hành vi khách hàng của bạn, giúp bạn tạo ra các chiến dịch Marketing đồng bộ với các nền tảng xã hội và kỹ thuật số, và có ROI nổi bật.",
+        point_accumulation_campain: "Chiến dịch tích điểm",
+        point_accumulation_campain_desc:
+          "Đây là nội dung mô tả từng loại chiến dịch: Chiến dịch tích điểm Khuyến khích lòng trung thành của khách hàng bằng cách cho phép người dùng tích lũy điểm với mỗi giao dịch mua hoặc hoạt động. Điểm có thể được tích lũy theo thời gian và đổi lấy phần thưởng như giảm giá, ưu đãi đặc biệt hoặc sản phẩm. Chiến dịch này lý tưởng để tăng cường sự tương tác của khách hàng và thúc đẩy việc mua hàng lặp lại, vì nó khuyến khích khách hàng duy trì hoạt động với thương hiệu của bạn.",
+        point_accumulation_campain_desc_1:
+          "Điểm cho giao dịch mua, giới thiệu, hoặc hoạt động trên mạng xã hội",
+        point_accumulation_campain_desc_2: "Hệ thống phần thưởng tùy chỉnh",
+        point_accumulation_campain_desc_3:
+          "Theo dõi số dư điểm theo thời gian thực",
+        point_accumulation_campain_desc_4:
+          "Chỉ số tiến độ được gam hóa để thúc đẩy tham gia",
+        topup_campain: "Chiến dịch nạp tiền",
+        topup_campain_desc:
+          "Thu hút khách hàng mới và giữ chân khách hàng hiện tại bằng cách cung cấp quà tặng hoặc quà khuyến mãi như một phần của chiến lược tiếp thị. Quà tặng có thể được phân phối dựa trên các tiêu chí cụ thể, chẳng hạn như giao dịch mua vượt quá một mức nhất định, sự kiện đặc biệt hoặc chương trình khuyến mãi có thời hạn. Chiến dịch này giúp tạo ấn tượng tích cực về thương hiệu và xây dựng thiện cảm từ khách hàng.",
+        topup_campain_desc_1: "Phân phối quà tự động khi đáp ứng tiêu chí",
+        topup_campain_desc_2:
+          "Tùy chọn quà tặng đa dạng (ví dụ: mẫu sản phẩm, giảm giá)",
+        topup_campain_desc_3: "Tích hợp với mã QR để dễ dàng đổi quà",
+        topup_campain_desc_4:
+          "Khả năng theo dõi thành công của chiến dịch quà tặng và sự hài lòng của khách hàng",
+        lucky_spin_campain: "Chiến dịch quay may mắn",
+        lucky_spin_campain_desc:
+          "Thêm yếu tố vui nhộn và hấp dẫn vào các nỗ lực tiếp thị của bạn với chiến dịch quay may mắn, nơi khách hàng có cơ hội quay bánh xe kỹ thuật số để giành giải thưởng. Cách tiếp cận gamification này tăng cường sự phấn khích và khuyến khích tham gia. Nó có thể được sử dụng để thưởng cho giao dịch mua, tăng cường tương tác trên mạng xã hội hoặc thu hút sự chú ý trong các sự kiện đặc biệt.",
+        lucky_spin_campain_desc_1:
+          "Bánh xe quay tùy chỉnh với nhiều tùy chọn phần thưởng",
+        lucky_spin_campain_desc_2:
+          "Giám sát hoạt động chiến dịch theo thời gian thực",
+        lucky_spin_campain_desc_3: "Tích hợp với ứng dụng di động hoặc website",
+        lucky_spin_campain_desc_4:
+          "Tùy chọn thông báo trúng thưởng ngay lập tức và phân phối phần thưởng",
+        benefits_of_using_program: "Lợi ích khi sử dụng chương trình",
       },
     },
   };
@@ -374,10 +439,12 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateLanguage(language) {
     const langData = translations[language];
     document.getElementById("current-language-icon").src = langData.icon;
-    Object.keys(translations.en.text).map((key) => {
-      console.log(key);
-      if (document.getElementById(key))
-        document.getElementById(key).innerText = langData.text[key];
+
+    Object.keys(translations.en.text).forEach((key) => {
+      const elements = document.querySelectorAll(`[id="${key}"]`);
+      elements.forEach((element) => {
+        element.innerText = langData.text[key];
+      });
     });
   }
 
