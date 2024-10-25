@@ -35,7 +35,7 @@
   --themeht-text-color: #16072f;
   --themeht-white-color: #ffffff;
   --themeht-body-color: #75727b;
-  --themeht-primary-color4:#4A6473;
+  --themeht-primary-color4: #4a6473;
   --themeht-bg-dark-color: #0f171b;
   --themeht-bg-light-color: #f8fafc;
   --themeht-border-light-color: #e1e1e1;
@@ -173,8 +173,8 @@ section {
 .text-grey {
   color: var(--themeht-body-color);
 }
-.text-color-primary{
-  color:var(--themeht-primary-color4) !important;
+.text-color-primary {
+  color: var(--themeht-primary-color4) !important;
 }
 
 /* ------------------------
@@ -982,4 +982,12 @@ iframe {
   background: inherit;
   -webkit-text-fill-color: inherit;
   color: var(--themeht-white-color);
+}
+.text-limit {
+  display: -webkit-box; /* Use a flexible box layout */
+  -webkit-box-orient: vertical; /* Set the orientation to vertical */
+  -webkit-line-clamp: 4; /* Limit to 4 lines */
+  overflow: hidden; /* Hide overflow content */
+  max-height: 6em; /* Set a max-height based on the line height */
+  line-height: 1.5; /* Adjust line height as needed */
 }
