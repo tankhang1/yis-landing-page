@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     en: {
       icon: "https://cdn.britannica.com/76/4476-050-E643DD49/Betsy-Ross-legend-flag-united-states.jpg",
       text: {
+        company_name:"YisMartech jsc",
         toptab_home: "Home",
         toptab_pages: "Pages",
         toptab_shop: "Shop",
@@ -257,6 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
     vi: {
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png",
       text: {
+        company_name:"công ty CP YisMartech",
         toptab_home: "Trang Chủ",
         toptab_pages: "Trang",
         toptab_shop: "Cửa Hàng",
